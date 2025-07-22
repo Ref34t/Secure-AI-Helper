@@ -1,0 +1,14 @@
+{
+    "name": "secure-ai-helper/wordpress-plugin",
+    "description": "Secure AI Helper WordPress Plugin with OpenAI integration",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "symfony/yaml": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SecureAIHelper\\": "includes/"
+        }
+    }
+}

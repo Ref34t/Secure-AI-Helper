@@ -1,0 +1,27 @@
+# WordPress
+.DS_Store
+Thumbs.db
+
+# Development files
+*.log
+*.tmp
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+*.swp
+*~
+
+# Debug and test files
+test-simple.php
+*-debug*
+*debug*
+
+# Temporary files
+secure-ai-helper-final/
+includes/class-*-simple.php
+secure-ai-helper-simple.php
